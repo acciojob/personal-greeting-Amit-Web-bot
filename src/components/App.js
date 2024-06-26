@@ -7,12 +7,12 @@ const App = () => {
   const [name, setName] = useState("");
   return (
     <div>
-        <lable> Enter your name:</lable><br></br>
+        <p>Enter your name:</p>
         <input value = {name} onChange={(e)=>{
           setName(e.target.value)
         }} >
         </input>
-        {name!=""?<p>Hello {name}! </p>: ""}
+        {name!=""?<p>Hello {name}!</p>: ""}
     </div>
   )
 }
