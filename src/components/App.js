@@ -11,7 +11,7 @@ const App = () => {
           setName(e.target.value)
         }} >
         </input>
-        {name!=""?<p>Hello {name}!</p>: ""}
+        {name!=""?<p>Hello {name}!</p>: <p></p>}
     </div>
   )
 }
